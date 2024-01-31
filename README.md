@@ -1,7 +1,3 @@
-# Docker-with-PostgreSQL-DB
-Understanding and Hands-on Deep Dive Docker with PostgreSQL Database
-
-
 # Order of operations
 These commands are for linux/Mac, changes will need to made if you are running this in Microsoft Windows.
 
@@ -33,4 +29,3 @@ psql client is installed
 3. `psql -h localhost -U postgres -d hplussport -f product.sql`
 4. `psql -h localhost -U postgres -d hplussport -f salesperson.sql`
 5. `psql -h localhost -U postgres -d hplussport -f orders.sql`
-
